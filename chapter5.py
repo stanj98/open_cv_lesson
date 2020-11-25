@@ -5,7 +5,8 @@ import numpy as np
 
 image_path = cv2.imread("resources/cards.jpg") #image from Git repo - Murtaza Workshop YT
 
-#A playing card is usually 2.5 by 3.5 inches, so we are maintaining the ratio here.
+#A playing card (using a card as an example here to extract as an object) is usually 2.5 by 3.5 inches, 
+#so we are maintaining the ratio here.
 width, height = 250, 350
 
 #using np.float32 since we need a floating point array.
